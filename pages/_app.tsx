@@ -7,7 +7,7 @@ import {
 } from "@solana/wallet-adapter-react";
 import {
   GlowWalletAdapter,
-  PhantomWalletAdapter,
+  PhantomWalletAdapter, 
 } from "@solana/wallet-adapter-wallets";
 import { clusterApiUrl } from "@solana/web3.js";
 
@@ -18,6 +18,7 @@ require("../styles/Home.Module.css");
 // My Notes
 //  <WalletProvider wallets={wallets} autoConnect> >>> interface for connecting to all sorts of wallets
 // clusterApiUrl >>> function that generates an RPC endpoint
+// npm install @solana/wallet-adapter-base, @solana/wallet-adapter-react, @solana/wallet-adapter-phantom, @solana/wallet-adapter-react-ui
 
 const App = ({ Component, pageProps }) => {
   // Can be set to 'devnet', 'testnet', or 'mainnet-beta'
